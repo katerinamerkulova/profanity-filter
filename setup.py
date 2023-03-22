@@ -15,8 +15,8 @@ install_requires = \
  'poetry-version>=0.1.3,<0.2.0',
  'pydantic>=1.3,<2.0',
  'redis>=3.2,<4.0',
- 'ruamel.yaml>=0.15.89,<0.16.0',
- 'spacy>=2.0,<3.0']
+ 'ruamel.yaml>=0.15.89',
+ 'spacy>=2.0']
 
 extras_require = \
 {':python_version >= "3.6" and python_version < "3.7"': ['dataclasses>=0.6.0,<0.7.0'],
